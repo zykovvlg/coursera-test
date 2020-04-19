@@ -13,7 +13,8 @@ h1 {
 	color: #000;
 	font-size: 1.75em;
 	text-align: center;
-    padding-top: 1.5em;
+    padding-top: 30px;
+    margin: 0px;
 }
 h2 {
 	font-size: 1.25em;
@@ -22,31 +23,30 @@ p {
 	font-size: 1em;
 	padding: 0px 10px;
 }
-.box-wrapper {	
-	height: 280px;	
-	border: 2px solid;
+.box-wrapper {		
+	border: 1px solid #000;
 	position: relative;
-	background: #d69e9e;
-	padding-top: 40px;	
+	background: #999999;
+	padding: 40px 0;
 }
 .title-box {
 	position: absolute;
     width: 80px;
-    right: -2px;
-    top: -2px;
+    right: -1px;
+    top: -1px;
     text-align: center;
     padding: 10px;
     font-weight: 900;
-    border: 2px solid #000;   
+    border: 1px solid #000;   
 }
-.bg-color-815ce3 {
-	background: #815ce3;
+.bg-color-d59898 {
+	background: #d59898;
 }
-.bg-color-26a9ff {
-	background: #26a9ff;
+.bg-color-c14543 {
+	background: #c14543;
 }
-.bg-color-da3c9e {
-	background: #da3c9e;
+.bg-color-e5d198 {
+	background: #e5d198;
 }
 .text-color-white {
 	color: #fff;
@@ -55,7 +55,7 @@ p {
 /******Grid******/
 .row {
 	width: 100%;
-	padding: 15px;
+    padding: 30px 15px;
 }
 .clear {
 	clear: both;
@@ -150,7 +150,10 @@ p {
 	  }
 }
 @media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 {
+		padding: 0 45px;
+	}
 	.padding-top-sm-30 {
 	  	padding-top: 30px;
-	  }
+	  }	  
 }
