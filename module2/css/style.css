@@ -16,9 +16,6 @@ h1 {
     padding-top: 30px;
     margin: 0px;
 }
-h2 {
-	font-size: 1.25em;
-}
 p {
 	font-size: 1em;
 	padding: 0px 10px;
@@ -31,13 +28,14 @@ p {
 }
 .title-box {
 	position: absolute;
-    width: 80px;
+    width: 120px;
     right: -1px;
     top: -1px;
     text-align: center;
     padding: 10px;
     font-weight: 900;
-    border: 1px solid #000;   
+    border: 1px solid #000;
+    font-size: 1.25em;   
 }
 .bg-color-d59898 {
 	background: #d59898;
